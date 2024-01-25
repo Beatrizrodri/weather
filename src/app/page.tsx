@@ -1,5 +1,11 @@
-import './globals.css'
+import './globals.scss'
+import style from './page.module.scss'
+import { Header } from '../components/Header'
 
 export default function Home() {
-  return <div>Hello word</div>
+  return (
+    <div className={style.container}>
+      <Header />
+    </div>
+  )
 }
