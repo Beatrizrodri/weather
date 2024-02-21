@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  height: 50%;
+  padding: 0 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--white);
+}
+
+.temperature {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  span::first-line {
+    font-size: 200px;
+    font-weight: 100;
+    margin-right: 200px;
+  }
+
+  span {
+    font-size: 35px;
+  }
+
+  div > span {
+    margin-right: 20px;
+  }
+}
+
+.weatherDescription {
+  margin-top: 400px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+
+  ul {
+    list-style: none;
+  }
+}
+
+.currentData {
+  display: flex;
+  align-items: center;
+
+  li {
+    padding: 10px;
+    font-weight: 200;
+    font-size: 20px;
+  }
+}

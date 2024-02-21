@@ -11,19 +11,19 @@
   color: var(--white);
 
   h1 {
-    font-size: 2.4rem;
-    margin-bottom: 0.5rem;
+    font-size: 60px;
+    margin-bottom: 5px;
   }
 }
 
 .date {
   display: flex;
-  gap: 0.2rem;
-  font-size: 1.6rem;
+  gap: 2px;
+  font-size: 24px;
 
   span:last-child {
-    border-left: 0.01rem solid var(--white);
-    padding-left: 0.2rem;
+    border-left: 1px solid var(--white);
+    padding-left: 2px;
   }
 }
 
@@ -31,31 +31,31 @@
   display: flex;
 
   input {
-    width: 20rem;
-    height: 2rem;
-    margin-right: 2rem;
-    padding: 1rem;
+    width: 450px;
+    height: 40px;
+    margin-right: 20px;
+    padding: 10px;
 
-    font-size: 0.6rem;
+    font-size: 16px;
     color: gray;
 
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 4px;
     position: relative;
   }
 
   button {
-    width: 4rem;
-    height: 2rem;
+    width: 80px;
+    height: 40px;
 
     border: none;
-    border-radius: 0.4rem;
+    border-radius: 4px;
 
     color: var(--white);
     background-color: var(--blue);
 
-    font-size: 0.8rem;
+    font-size: 16px;
     position: absolute;
-    right: 2rem;
+    right: 40px;
   }
 }
