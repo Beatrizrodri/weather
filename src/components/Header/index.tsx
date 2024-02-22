@@ -1,6 +1,10 @@
 import style from './style.module.scss'
 
-export function Header() {
+interface HeaderProps {
+  darkTheme: boolean
+}
+
+export function Header({ darkTheme }: HeaderProps) {
   return (
     <div className={style.container}>
       <div className={style.information}>
@@ -11,7 +15,11 @@ export function Header() {
           <span>10:15 PM</span>
         </div>
       </div>
-      <div className={style.shearch}>
+      <div
+        className={`${darkTheme ? style.darkSearch : style.lightSearch} ${
+          style.search
+        }`}
+      >
         <input type="text" placeholder="search by region" />
         <button>Search</button>
       </div>

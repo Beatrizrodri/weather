@@ -1,8 +1,11 @@
 :root {
-  --dark-blue: #0c1938;
-  --light-blue: #497acb;
-  --blue: #213e9b;
-  --white: #ffffff;
+  --background-dark-blue: rgb(33, 41, 81);
+  --dark-blue: rgb(12, 25, 56);
+  --blue: rgb(33, 62, 155);
+  --light-blue: rgb(73, 122, 203);
+
+  --white: rgb(255, 255, 255);
+  --light: rgba(255, 255, 255, 0.743);
 }
 
 * {

@@ -18,44 +18,67 @@
 
 .date {
   display: flex;
-  gap: 2px;
+  gap: 10px;
   font-size: 24px;
 
   span:last-child {
     border-left: 1px solid var(--white);
-    padding-left: 2px;
+    padding-left: 10px;
   }
 }
 
-.shearch {
+.search {
   display: flex;
 
   input {
-    width: 550px;
-    height: 50px;
+    width: 600px;
+    height: 55px;
     margin-right: 20px;
     padding: 10px;
 
     font-size: 16px;
-    color: gray;
 
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     position: relative;
   }
 
   button {
-    width: 100px;
-    height: 50px;
+    width: 120px;
+    height: 55px;
 
     border: none;
-    border-radius: 8px;
-
-    color: var(--white);
-    background-color: var(--blue);
-
+    border-radius: 12px;
     font-size: 16px;
+    font-weight: 600;
     position: absolute;
     right: 90px;
+  }
+}
+
+.lightSearch {
+  input {
+    background-color: var(--white);
+    color: gray;
+  }
+
+  button {
+    color: var(--white);
+    background-color: var(--blue);
+  }
+}
+
+.darkSearch {
+  input {
+    background-color: var(--background-dark-blue);
+  }
+
+  input::placeholder {
+    color: var(--light);
+  }
+
+  button {
+    color: var(--background-dark-blue);
+    background-color: var(--light);
   }
 }

@@ -6,7 +6,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+.darkContainer {
+  background-image: (url('../../public/background-night.png'));
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lightContainer {
   background-image: (url('../../public/background-day.png'));
   background-repeat: no-repeat;
   background-size: cover;
