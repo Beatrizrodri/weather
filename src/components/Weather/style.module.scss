@@ -29,6 +29,12 @@
   div > span {
     margin-right: 20px;
   }
+
+  div > span:first-child {
+    border-right: 1px solid var(--white);
+    padding-right: 20px;
+    font-weight: 600;
+  }
 }
 
 .weatherDescription {

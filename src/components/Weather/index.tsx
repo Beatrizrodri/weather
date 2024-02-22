@@ -11,12 +11,10 @@ export function Weather() {
       <div className={style.temperature}>
         <span>23</span>
         <div>
-          <div>
-            <span className={style.celsius}>C</span>
-            <span className={style.fahrenheit}>F</span>
-            <br />
-            <span className={style.weatherDescription}>Partly cloudy</span>
-          </div>
+          <span className={style.celsius}>°C</span>
+          <span className={style.fahrenheit}>°F</span>
+          <br />
+          <span className={style.weatherDescription}>Partly cloudy</span>
         </div>
       </div>
       <div className={style.content}>
@@ -24,11 +22,11 @@ export function Weather() {
         <ul>
           <div className={style.currentData}>
             <FaThermometerEmpty size={24} />
-            <li>Feels like: 31 C</li>
+            <li>Feels like: 31°C</li>
           </div>
 
           <div className={style.currentData}>
-            <FiDroplet size={24} /> <li>Humidity: 15 %</li>
+            <FiDroplet size={24} /> <li>Humidity: 15%</li>
           </div>
 
           <div className={style.currentData}>
